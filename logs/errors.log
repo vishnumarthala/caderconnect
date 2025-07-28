@@ -1,0 +1,720 @@
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: '5ba85157-9e6e-410e-8d41-22e1f346cfd7',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: '6feb4244-bc88-4ef8-9710-56f6f3526682',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:17:09.878Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: 'e520a914-47be-4a0e-9b3e-cb44b524561d',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: '5ddf3ea6-8c5c-4cab-8889-8dcd0ce6a64e',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:17:09.882Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: '3ea68e69-1864-4108-acea-4c074447cd20',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: '05679dde-3ea5-452e-803f-5f9393be084f',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:17:09.884Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: '28fa3191-01d2-4be9-b4ff-065ebbeb12d9',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: '30f84729-ea6b-4b98-89a8-38a65f99c3bc',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:17:12.794Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: 'b0937c45-0f55-4058-9777-b4baeaa95f04',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: '8f25e9e9-7d58-4882-bd69-05c90823af0e',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:17:12.803Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: '0013cd3b-6915-499e-bf99-9a0548f36af8',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: '4d6d87a6-c01f-44ec-bb17-d84d3937bcee',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:17:12.812Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: 'c078920c-11f5-4976-a31d-6af06b6feb73',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: '3ce196f6-063f-4317-a254-ac7a9a2898cd',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:17:24.444Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: '82b8159e-cea4-4e20-bf1d-e2896895bff6',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: '4e4a433f-b89c-4f88-9c2a-bbeffeb7c270',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:17:24.453Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: 'fe2a7f72-169b-4ddf-abd7-6cd242168b23',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: '88b30f82-a268-439b-b1db-f52923e90f2c',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:17:24.454Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: '23b8f51b-7ec7-4f00-954f-249d38e662a7',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: 'c6cc51c1-43c6-4715-b128-65eff9fbd62c',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:17:24.456Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: 'a2269876-cfe9-4238-b0d2-e23d180f50af',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: 'eb41cf87-3152-4139-ae51-b2cb805bf1e5',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:17:24.463Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: '19f8b97d-931a-4ef7-978c-e17239a40820',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: '5c800218-afb5-42ef-b102-7094cd3fb372',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:17:39.751Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: '01a9cfb1-0118-4de4-a8be-c537feabfdae',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: '2ab90d31-ea45-4401-bdb2-e3946774c131',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:17:39.752Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: '22652cf5-aa8e-4dfb-8d16-60a26f091d9f',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: '7448a8bb-40a5-4a08-a03f-7dc4fd10535d',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:17:39.766Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: '19f2a38c-e681-47f4-b415-50483fbcd2ea',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: '03b4ffc1-a5ae-41db-b707-df819d1d1ccf',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:17:42.854Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: '406215a0-8139-40e0-b1b8-968b28227323',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: '3e1a9263-392b-44bf-b49b-3ce427914b4c',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:17:42.874Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: '5167a9ee-0592-4646-888b-628d6c5f9258',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: '6d9302ae-6671-47d8-a528-9a2ec09e3fdb',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:17:42.879Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: '514e6761-d755-4e5c-a88c-d8a318e818ca',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: 'a4d514b3-0fd3-4061-919e-ea6d89b47494',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:20:24.526Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: 'c8cb287b-5f2a-4527-87b4-85fba0b030b0',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: 'e3ecfe79-2a48-4159-9e70-0a70f4a1d685',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:20:24.531Z'
+}
+{
+  service: 'sentinel-api',
+  version: 'v1',
+  environment: 'development',
+  error: 'TypeError: fetch failed',
+  auditId: '1976464b-ec89-4f4c-8b0a-72178ce1bab4',
+  event: {
+    userId: null,
+    sessionId: null,
+    action: 'permission_denied',
+    severity: 'medium',
+    details: {
+      type: 'insufficient_permissions',
+      operation: 'list_alerts',
+      requiredRoles: [ 'admin', 'analyst', 'operator' ],
+      currentRole: null
+    },
+    ipAddress: '::1',
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15',
+    requestId: 'cdf81696-e3b4-4f36-9be4-b18fa7a1cf3a',
+    category: 'security',
+    additionalData: {
+      severity: 'medium',
+      details: {
+        type: 'insufficient_permissions',
+        operation: 'list_alerts',
+        requiredRoles: [ 'admin', 'analyst', 'operator' ],
+        currentRole: null
+      },
+      securityEventType: true
+    }
+  },
+  level: 'error',
+  message: 'Failed to log audit event to database',
+  timestamp: '2025-07-27T08:20:24.532Z'
+}
