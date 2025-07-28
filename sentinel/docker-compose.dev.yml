@@ -1,0 +1,28 @@
+# Quick Development Setup with Local Database
+version: '3.8'
+
+services:
+  # PostgreSQL Database with pgvector
+  db:
+    image: pgvector/pgvector:pg15
+    environment:
+      - POSTGRES_DB=sentinel_dev
+      - POSTGRES_USER=sentinel_user
+      - POSTGRES_PASSWORD=sentinel_pass
+    ports:
+      - "5433:5432"  # Using 5433 to avoid conflicts
+    volumes:
+      - sentinel_dev_data:/var/lib/postgresql/data
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+      - ./database/vector-functions.sql:/docker-entrypoint-initdb.d/02-vector-functions.sql
+      - ./database/seed-data.sql:/docker-entrypoint-initdb.d/03-seed-data.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U sentinel_user -d sentinel_dev"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+volumes:
+  sentinel_dev_data:
+    driver: local
